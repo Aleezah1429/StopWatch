@@ -1,0 +1,54 @@
+body {
+    background-image: url(background\ img.jpg);
+    background-repeat: no-repeat, repeat;
+    background-size: 100% 150%;
+    text-align: center;
+    background-color: blue;
+  }
+h1{
+    color: blue;
+    background-color: white;
+    width: 100px;
+    display: inline-block;
+
+}
+
+.btn {
+    padding: 10px;
+    border: 2px solid blueviolet;
+    border-radius: 50%;
+    font-size: 15pt;
+    background-color: white;
+    width: 50px;
+    margin: 5px;
+    margin-left: 40px;
+}
+
+.btn:hover {
+    background-color: #cccccc;
+    cursor: pointer;
+}
+#laps {
+    border: 2px solid white;
+    background-color: blue;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 12pt;
+    margin: 25px;
+    color: white;
+}
+.lapBtn {
+    border: 2px solid blueviolet;
+    border-radius: 37px;
+    padding: 10px;
+    width: 60px;
+    font-weight: bold;
+    height: 40px;
+    cursor: pointer;
+    background-color: white;
+}
+.lapBtn:hover{
+    background-color: #cccccc;
+    cursor: pointer;
+}
